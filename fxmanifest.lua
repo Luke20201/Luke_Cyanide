@@ -4,4 +4,8 @@ games { 'gta5' }
 author 'Luke'
 description 'Realstic Cyanide system adding /cyanide.'
 
-client_script 'client.lua'
+client_scripts 
+{ 
+  'client.lua',
+  'config.lua'
+}
